@@ -1,22 +1,12 @@
-setwd("C:/exemplo")
-install.packages("knitr")
-install.packages("haven")
-install.packages("kableExtra")
-install.packages("tidyr")
-install.packages("ggplot2")
-install.packages("h2o")
-install.packages("lime")
-install.packages("PNADcIBGE")
-install.packages("survey")
-install.packages("srvyr")
-install.packages("dplyr")
 rm(list = ls())
+
 options(survey.lonely.psu = "adjust")
 options(OutDec=",")
-library(h2o)
-library(lime)
-library(dplyr);library(PNADcIBGE);library(survey);library(srvyr)
-library(haven);library(knitr);library(kableExtra);library(tidyr);library(ggplot2)
+options(scipen=999)
+
+library(dplyr);library(PNADcIBGE);
+library(survey);library(srvyr)
+library(tidyr)
 
 dados_pnadc <- read_pnadc ("PNADC_2019_visita1.txt", "input_PNADC_2019_visita1_20200826.txt")
 dados_pnadc <- pnadc_labeller (dados_pnadc,
@@ -24,18 +14,18 @@ dados_pnadc <- pnadc_labeller (dados_pnadc,
 dados_pnadc$one <- 1
 
 dados_pnadc$LerEscr <- ifelse(grepl("Sim", dados_pnadc$V3001), 1, 0)
-dados_pnadc$LerEscr2 <- ifelse(grepl("Não", dados_pnadc$V3001), 1, 0)
+dados_pnadc$LerEscr2 <- ifelse(grepl("NÃ£o", dados_pnadc$V3001), 1, 0)
 dados_pnadc$V1A <- ifelse(grepl(0, dados_pnadc$LerEscr), 1, 0)
 dados_pnadc$V1B <- ifelse(dados_pnadc$V2009>=9, ifelse(grepl(0, dados_pnadc$LerEscr), 1, 0), 0)
 dados_pnadc$FreqEsc <- ifelse(grepl("Sim", dados_pnadc$V3002), 1, 0)
-dados_pnadc$FreqEsc2 <- ifelse(grepl("Não", dados_pnadc$V3002), 1, 0)
+dados_pnadc$FreqEsc2 <- ifelse(grepl("NÃ£o", dados_pnadc$V3002), 1, 0)
 dados_pnadc$V1G <- ifelse(grepl(0, dados_pnadc$FreqEsc), ifelse(dados_pnadc$V2009>=7, ifelse(dados_pnadc$V2009<=17, 1, 0), 0), 0)
 dados_pnadc$V1H <- ifelse(grepl(1, dados_pnadc$V1B) | grepl(1, dados_pnadc$V1G), 1, 0) 
-dados_pnadc$NvlInstr <- ifelse(grepl("Sem instrução e menos de 1 ano de estudo", dados_pnadc$VD3004), 1, 
+dados_pnadc$NvlInstr <- ifelse(grepl("Sem instruÃ§Ã£o e menos de 1 ano de estudo", dados_pnadc$VD3004), 1, 
                                ifelse(grepl("Fundamental incompleto ou equivalente", dados_pnadc$VD3004), 2, 
                                       ifelse(grepl("Fundamental completo ou equivalente", dados_pnadc$VD3004), 3, 
-                                             ifelse(grepl("Médio incompleto ou equivalente", dados_pnadc$VD3004), 4, 
-                                                    ifelse(grepl("Médio completo ou equivalente", dados_pnadc$VD3004), 5, 
+                                             ifelse(grepl("MÃ©dio incompleto ou equivalente", dados_pnadc$VD3004), 4, 
+                                                    ifelse(grepl("MÃ©dio completo ou equivalente", dados_pnadc$VD3004), 5, 
                                                            ifelse(grepl("Superior incompleto ou equivalente", dados_pnadc$VD3004), 6, 
                                                                   ifelse(grepl("Superior completo", dados_pnadc$VD3004), 7, 0)))))))
 dados_pnadc$V1C <- ifelse(dados_pnadc$V2009>=18, ifelse(dados_pnadc$NvlInstr<=2, 1, 0), 0)
@@ -48,8 +38,8 @@ dados_pnadc$Carro <- ifelse(grepl("Sim", dados_pnadc$S010311), 1, 0)
 dados_pnadc$Cmpt <- ifelse(grepl("Sim", dados_pnadc$S01028), 1, 0)
 dados_pnadc$MaqLav <- ifelse(grepl("Sim", dados_pnadc$S01024), 1, 0)
 dados_pnadc$Bens <- ifelse(grepl(1, dados_pnadc$Gelad) | grepl(1, dados_pnadc$TelCel) | grepl(1, dados_pnadc$TV) | grepl(1, dados_pnadc$Carro) | grepl(1, dados_pnadc$Cmpt) | grepl(1, dados_pnadc$MaqLav), 1, 0)
-dados_pnadc$Lixo1 <- ifelse(dados_pnadc$S01013=="Coletado diretamente por serviço de limpeza", 1,
-                            ifelse(dados_pnadc$S01013=="Coletado em caçamba de serviço de limpeza", 2,
+dados_pnadc$Lixo1 <- ifelse(dados_pnadc$S01013=="Coletado diretamente por serviÃ§o de limpeza", 1,
+                            ifelse(dados_pnadc$S01013=="Coletado em caÃ§amba de serviÃ§o de limpeza", 2,
                                    ifelse(dados_pnadc$S01013=="Queimado (na propriedade)", 3,
                                           ifelse(dados_pnadc$S01013=="Enterrado (na propriedade)", 4,
                                                  ifelse(dados_pnadc$S01013=="Jogado em terreno baldio ou logradouro", 5,
@@ -57,8 +47,9 @@ dados_pnadc$Lixo1 <- ifelse(dados_pnadc$S01013=="Coletado diretamente por serviç
 dados_pnadc$Lixo2 <- ifelse(dados_pnadc$V1022=="Urbana", ifelse(dados_pnadc$Lixo1>=2, 1, 0), 0)
 dados_pnadc$Lixo3 <- ifelse(dados_pnadc$Lixo1>=3, ifelse(grepl("Rural", dados_pnadc$V1022), 1, 0), 0)
 dados_pnadc$V1D <- ifelse(grepl(1, dados_pnadc$Lixo2) | grepl(1, dados_pnadc$Lixo3), 1, 0)
-dados_pnadc$V1E <- ifelse(grepl("Canalizada em pelo menos um cômodo|Canalizada só na propriedade ou terreno", dados_pnadc$S01010), 1, 0)
+dados_pnadc$V1E <- ifelse(grepl("Canalizada em pelo menos um cÃ´modo|Canalizada sÃ³ na propriedade ou terreno", dados_pnadc$S01010), 1, 0)
 dados_pnadc$V1F <- ifelse(grepl(00, dados_pnadc$S01011A), 1, 0)
+
 dados_pnadc %>%
   select(S01006, VD2003) %>%
   mutate(pess_comd = as.integer(VD2003) / as.integer(S01006)) -> pess_comd
@@ -89,10 +80,10 @@ rm (pnadc_ipm, dados_pnadc_a, dados_pnadc_ipm)
 dados_pnadc <- dados_pnadc[, !duplicated(colnames(dados_pnadc))]
 dados_pnadc <- as_tibble(dados_pnadc)
 
-# contribuição de cada indicador
+# contribuiÃ§Ã£o de cada indicador
 var=names(dados_pnadc) %in% c("weighted.sum")
 dados_pnadc2=dados_pnadc[!var]
-dados_pnadc3 = dados_pnadc2[ which(dados_pnadc2$UF=="Espírito Santo"), ]
+dados_pnadc3 = dados_pnadc2[ which(dados_pnadc2$UF=="EspÃ­rito Santo"), ]
 
 for(i in seq_along(dados_pnadc)){
   if (dados_pnadc3$multidimensionalpoor[i]==1){
@@ -121,28 +112,13 @@ total=sum(df$weight_hr)
 df=mutate(df,contribution=weight_hr/total)
 data=select(df,indicator,contribution); data
 rm(dados_pnadc2, dados_pnadc3, data, df, Bens3, Energ3, i, total, V1C3, V1D3, V1E3, V1F3, V1H3, V1I3, var)
-pnadc_plano <-     
-  svydesign(            
-    ids = ~ UPA,
-    strata = ~ Estrato,
-    weights = ~ V1031,
-    data = dados_pnadc,
-    nest = TRUE
-  )
 
-df_pos <- data.frame(posest = unique(dados_pnadc$posest), Freq = unique(dados_pnadc$V1030))
-pnadc_calib <- postStratify(pnadc_plano, ~posest, df_pos)
-pnadc_fatores = weights(pnadc_calib) / weights(pnadc_plano)
-boxplot(pnadc_fatores, horizontal = TRUE, xlab="Fatores de calibração")
-saveRDS(pnadc_calib,"pnadc_calib_2019")
-rm(list = ls())
+pnadc_plano <- pnadc_design(dados_pnadc)
+saveRDS(pnadc_plano,"pnadc_calib_2019")
 
-pnadc_calib <- readRDS(file="pnadc_calib_2019") 
-pnadc_calib <- as_survey_design(pnadc_calib)
-options(scipen=999)
 svytotal(~ one, pnadc_calib)
 
-# privação em cada indicador
+# privaÃ§Ã£o em cada indicador
 svymean(~V1E==0, pnadc_calib)
 svymean(~V1C==1, pnadc_calib)
 svymean(~V1B==1, pnadc_calib)
@@ -154,7 +130,7 @@ svymean(~V1F==1, pnadc_calib)
 svymean(~V1I==1, pnadc_calib)
 svymean(~V1G==1, pnadc_calib)
 
-ES <- subset(pnadc_calib, UF=="Espírito Santo")
+ES <- subset(pnadc_calib, UF=="EspÃ­rito Santo")
 svymean(~V1E==0, ES)
 svymean(~V1C==1, ES)
 svymean(~V1B==1, ES)
