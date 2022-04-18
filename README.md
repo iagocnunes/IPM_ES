@@ -2,7 +2,7 @@
 <!-- Header -->
 <p align="center">
 <a href="https://cienciassociais.ufes.br/">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/marca_ufes.png" width="340" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/marca_ufes.png" width="400" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
