@@ -42,7 +42,7 @@ Neste estudo - levando em conta os dados utilizados na pesquisa de Serra (2017) 
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro1.png" width="380" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro1.png" width="580" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
@@ -53,7 +53,7 @@ Sendo assim, de acordo com a projeção populacional do IBGE, em 2019, mais de c
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro2.png" width="380" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro2.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
@@ -69,7 +69,7 @@ Depois da análise do painel de indicadores, aplica-se o método de agregação 
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro3.png" width="380" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro3.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
@@ -78,7 +78,7 @@ Umá análise da distribuição das pessoas em todas as linhas de corte, cimenta
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro4.png" width="380" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro4.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
@@ -86,7 +86,7 @@ A média do grau de intensidade da pobreza multidimensional vivenciada por aquel
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro5.png" width="380" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro5.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
@@ -96,7 +96,7 @@ Por fim, combinando a incidência (H) e a intensidade (A), o índice de pobreza 
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro6.png" width="380" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro6.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
