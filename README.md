@@ -41,8 +41,8 @@ O primeiro passo da identificação consiste em definir quais dimensões são ma
 Neste estudo - levando em conta os dados utilizados na pesquisa de Serra (2017) e a disponibilidade de informações na PNADc -, selecionou-se as seguintes dimensões e variáveis:
 
 <p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro1.png" width="580" alt="Ciências Sociais - UFES">
+<a href="_blank">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro1.png" width="600" alt="Ciências Sociais - UFES">
 </a>
 </p>
 
@@ -52,7 +52,7 @@ O painel de indicadores, na dimensão do padrão de vida, aponta que, em 2019, 2
 Sendo assim, de acordo com a projeção populacional do IBGE, em 2019, mais de cinco milhões de brasileiros vivenciavam privação nesses componentes, ao passo que menos de 9 mil capixabas encontravam-se nessa situação, indicando uma universalização maior destes indicadores na realidade capixaba.
 
 <p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
+<a href="_blank">
 <img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro2.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
@@ -68,7 +68,7 @@ Na análise de um indicador elementar, como o da alfabetização, constata-se n�
 Depois da análise do painel de indicadores, aplica-se o método de agregação e cálculo de Alkire-Foster (AF) aos dados para a comparação dos resultados obtidos nas métricas selecionadas.
 
 <p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
+<a href="_blank">
 <img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro3.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
@@ -77,7 +77,7 @@ A incidência de pobreza, identificada pelo modelo, resultou em 7,4% (15.502.738
 Umá análise da distribuição das pessoas em todas as linhas de corte, cimenta uma escolha mais segura de uma linha particular para o Brasil e o Espírito Santo, com a menor subestimação possível.
 
 <p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
+<a href="_blank">
 <img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro4.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
@@ -85,7 +85,7 @@ Umá análise da distribuição das pessoas em todas as linhas de corte, cimenta
 A média do grau de intensidade da pobreza multidimensional vivenciada por aqueles privados em 33% dos componentes atinge patamares semelhantes nos dois estratos geográficos, ficando em 53% no Brasil e 51% no Espírito Santo. Pelo prisma do corte em 50% de privações, a intensidade da pobreza se agrava, atingindo 62% no Brasil e 57% no Espírito Santo, demonstrando que a análise de intensidade se beneficia de recortes específicos para, por exemplo, averiguar a intensidade da pobreza entre os mais pobres dos identificados como em privações.
 
 <p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
+<a href="_blank">
 <img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro5.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
@@ -95,7 +95,7 @@ Por fim, combinando a incidência (H) e a intensidade (A), o índice de pobreza 
 ## Contribuição relativa dos indicadores - 2019
 
 <p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
+<a href="_blank">
 <img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro6.png" width="480" alt="Ciências Sociais - UFES">
 </a>
 </p>
@@ -106,7 +106,8 @@ Em relação à contribuição relativa de cada indicador para o índice, as tab
 
 O enfrentamento da pobreza exige uma ampliação do espectro analítico para que se compreenda todas suas facetas, possibilitando que, para além do aumento da renda, o enfrentamento se desdobre em implementação de políticas públicas voltadas para o saneamento, a educação, acesso à informação, meio ambiente, habitação, e demais dimensões deste fenômeno multifacetado.
 
-ALKIRE, S. et al. Multidimensional poverty measurement and analysis. Oxford: Oxford University Press, 2015.
-ALKIRE, S.; FOSTER, J. Counting and multidimensional poverty measurement. Journal of Public Economics, v. 95, p. 476-487, 2011.
-SERRA, A. S. Pobreza multidimensional no Brasil rural e urbano. 2017. Tese (Doutorado em Desenvolvimento Econômico) - Universidade Estadual de Campinas.
+Bibliografia citada aqui:
+- ALKIRE, S. et al. Multidimensional poverty measurement and analysis. Oxford: Oxford University Press, 2015.
+- ALKIRE, S.; FOSTER, J. Counting and multidimensional poverty measurement. Journal of Public Economics, v. 95, p. 476-487, 2011.
+- SERRA, A. S. Pobreza multidimensional no Brasil rural e urbano. 2017. Tese (Doutorado em Desenvolvimento Econômico) - Universidade Estadual de Campinas.
 
