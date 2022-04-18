@@ -2,106 +2,111 @@
 <!-- Header -->
 <p align="center">
 <a href="https://cienciassociais.ufes.br/">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/marca_ufes.png" width="340" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/marca_ufes.png" width="340" alt="CiÃªncias Sociais - UFES">
 </a>
 </p>
 
-# Pobreza Multidimensional do Brasil e Espírito Santo: uma ilustração metodológica em pesquisa por amostra domiciliar
+# Pobreza Multidimensional do Brasil e EspÃ­rito Santo: uma ilustraÃ§Ã£o metodolÃ³gica em pesquisa por amostra domiciliar
 
-Este projeto é oriundo do meu trabalho de conclusão de curso (Ciências Sociais - Bacharel) apresentado ao Departamento de Ciências Sociais da Universidade Federal do Espírito Santo, orientado pelo Professor Doutor Marcelo Fetz de Almeida.
+Este projeto Ã© oriundo do meu trabalho de conclusÃ£o de curso (CiÃªncias Sociais - Bacharel) apresentado ao Departamento de CiÃªncias Sociais da Universidade Federal do EspÃ­rito Santo, orientado pelo Professor Doutor Marcelo Fetz de Almeida.
 
-O objetivo foi ilustrar algumas aplicações das metodologias de análise da pobreza, em uma abordagem multidimensional, e introduzir-se no âmago do debate conceitual dentro deste escopo. Com base na análise dos microdados da Pesquisa Nacional por Amostra de Domicílios Contínua de 2019, buscou-se contribuir para o desenvolvimento das pesquisas no campo, aplicando, para o Espírito Santo, um proposto Índice de Pobreza Multidimensional para o Brasil.
+O objetivo foi ilustrar algumas aplicaÃ§Ãµes das metodologias de anÃ¡lise da pobreza, em uma abordagem multidimensional, e introduzir-se no Ã¢mago do debate conceitual dentro deste escopo. Com base na anÃ¡lise dos microdados da Pesquisa Nacional por Amostra de DomicÃ­lios ContÃ­nua de 2019, buscou-se contribuir para o desenvolvimento das pesquisas no campo, aplicando, para o EspÃ­rito Santo, um proposto Ãndice de Pobreza Multidimensional para o Brasil.
 
 ## Sobre pobreza
 
-A pobreza, compreendida como a privação que os indivíduos experienciam em determinado momento, é um fenômeno multifacetado com determinações históricas, sociais, econômicas e políticas que se manifestam de formas objetivas e subjetivas. Por se tratar de um fenômeno não homogêneo, as formas de captá-lo e mensurá-lo, em todas suas determinações e dimensões, também varia. Sendo assim, os resultados dos estudos neste campo nem sempre convergem, dependendo da abordagem analítica, dos dados em análise e das métricas utilizadas.
-Propõe-se aqui a aplicação do Índice de Pobreza Multidimensional (IPM) proposto para o Brasil e elaborado por Adriana Serra (2017), adaptando-o às variáveis disponíveis na Pesquisa Nacional por Amostra Domiciliar Contínua (PNADc), do Instituto Brasileiro de Geografia e Estatística (IBGE).
+A pobreza, compreendida como a privaÃ§Ã£o que os indivÃ­duos experienciam em determinado momento, Ã© um fenÃ´meno multifacetado com determinaÃ§Ãµes histÃ³ricas, sociais, econÃ´micas e polÃ­ticas que se manifestam de formas objetivas e subjetivas. Por se tratar de um fenÃ´meno nÃ£o homogÃªneo, as formas de captÃ¡-lo e mensurÃ¡-lo, em todas suas determinaÃ§Ãµes e dimensÃµes, tambÃ©m varia. Sendo assim, os resultados dos estudos neste campo nem sempre convergem, dependendo da abordagem analÃ­tica, dos dados em anÃ¡lise e das mÃ©tricas utilizadas.
+PropÃµe-se aqui a aplicaÃ§Ã£o do Ãndice de Pobreza Multidimensional (IPM) proposto para o Brasil e elaborado por Adriana Serra (2017), adaptando-o Ã s variÃ¡veis disponÃ­veis na Pesquisa Nacional por Amostra Domiciliar ContÃ­nua (PNADc), do Instituto Brasileiro de Geografia e EstatÃ­stica (IBGE).
 
-## Métricas de mensuração da pobreza
+## MÃ©tricas de mensuraÃ§Ã£o da pobreza
 
-A mensuração da pobreza pela metodologia Alkire-Foster (ALKIRE, FOSTER, 2011a; ALKIRE et al., 2015) se realiza através da identificação dos pobres na amostra e da agregação das informações em um índice.
-Selecionou-se algumas métricas para o corpo analítico proposto, são elas:
+A mensuraÃ§Ã£o da pobreza pela metodologia Alkire-Foster (ALKIRE, FOSTER, 2011a; ALKIRE et al., 2015) se realiza atravÃ©s da identificaÃ§Ã£o dos pobres na amostra e da agregaÃ§Ã£o das informaÃ§Ãµes em um Ã­ndice.
+Selecionou-se algumas mÃ©tricas para o corpo analÃ­tico proposto, sÃ£o elas:
 
-* a quantidade de indivíduos privados em cada indicador que compõe as dimensões do IPM;
-* a contribuição relativa desses indicadores na composição final do índice escalar;
-* a incidência da pobreza na população (ou a proporção de observações em privação, em relação a população geral);
-* a intensidade da pobreza vivenciada pelos identificados, pelas linhas de corte, como em privação (ou a média percentual de dimensões em que as pessoas pobres estão privadas);
-* e, por fim, o IPM, onde valores próximos de 1 (um) significam uma maior incidência e intensidade da pobreza multidimensional.
+* a quantidade de indivÃ­duos privados em cada indicador que compÃµe as dimensÃµes do IPM;
+* a contribuiÃ§Ã£o relativa desses indicadores na composiÃ§Ã£o final do Ã­ndice escalar;
+* a incidÃªncia da pobreza na populaÃ§Ã£o (ou a proporÃ§Ã£o de observaÃ§Ãµes em privaÃ§Ã£o, em relaÃ§Ã£o a populaÃ§Ã£o geral);
+* a intensidade da pobreza vivenciada pelos identificados, pelas linhas de corte, como em privaÃ§Ã£o (ou a mÃ©dia percentual de dimensÃµes em que as pessoas pobres estÃ£o privadas);
+* e, por fim, o IPM, onde valores prÃ³ximos de 1 (um) significam uma maior incidÃªncia e intensidade da pobreza multidimensional.
 
 ## Tratamento de dados
 
-O tratamento se dá através da transmutação das respostas declaradas em uma escala razão, onde zero e um são os valores balizadores, possibilitando a produção de uma escala de privação.
-Ainda se agrega os indicadores de variáveis individuais em indicadores compostos (por exemplo, o indicador de coleta de lixo é composto por variáveis com ponderações diferentes de coleta lixo para o meio urbano e o meio rural), possibilitando a averiguação da incidência de pobreza agregada.
+O tratamento se dÃ¡ atravÃ©s da transmutaÃ§Ã£o das respostas declaradas em uma escala razÃ£o, onde zero e um sÃ£o os valores balizadores, possibilitando a produÃ§Ã£o de uma escala de privaÃ§Ã£o.
+Ainda se agrega os indicadores de variÃ¡veis individuais em indicadores compostos (por exemplo, o indicador de coleta de lixo Ã© composto por variÃ¡veis com ponderaÃ§Ãµes diferentes de coleta lixo para o meio urbano e o meio rural), possibilitando a averiguaÃ§Ã£o da incidÃªncia de pobreza agregada.
 
-Com base no método AF, cria-se uma outra camada de variáveis, desta vez com pesos igualmente distribuídos entre as dimensões e os indicadores compostos. Soma-se, então, os indicadores finais ponderados pelos pesos, e cria-se duas variáveis de identificação dos em pobreza a partir de dois pontos de corte onde valores maiores que 0,50 e 0,33 são iguais a zero (não-pobres ou não-privados), e valores menores são equalizados a um (pobres ou em privação). Para o cálculo da contribuição de cada indicador para o IPM, realiza-se a censura dos não-pobres na base de dados substituindo os pesos por zero em cada indicador, e calcula-se novamente a incidência de pobreza de cada indicador com o peso para os identificados em situação de privação. Depois, divide-se cada valor da "censored head count" pela soma de todos. 
+Com base no mÃ©todo AF, cria-se uma outra camada de variÃ¡veis, desta vez com pesos igualmente distribuÃ­dos entre as dimensÃµes e os indicadores compostos. Soma-se, entÃ£o, os indicadores finais ponderados pelos pesos, e cria-se duas variÃ¡veis de identificaÃ§Ã£o dos em pobreza a partir de dois pontos de corte onde valores maiores que 0,50 e 0,33 sÃ£o iguais a zero (nÃ£o-pobres ou nÃ£o-privados), e valores menores sÃ£o equalizados a um (pobres ou em privaÃ§Ã£o). Para o cÃ¡lculo da contribuiÃ§Ã£o de cada indicador para o IPM, realiza-se a censura dos nÃ£o-pobres na base de dados substituindo os pesos por zero em cada indicador, e calcula-se novamente a incidÃªncia de pobreza de cada indicador com o peso para os identificados em situaÃ§Ã£o de privaÃ§Ã£o. Depois, divide-se cada valor da "censored head count" pela soma de todos. 
 
-## Variáveis selecionadas
+## VariÃ¡veis selecionadas
 
-O primeiro passo da identificação consiste em definir quais dimensões são mais relevantes e quais devem ser as variáveis utilizadas para representar cada uma.
-Neste estudo - levando em conta os dados utilizados na pesquisa de Serra (2017) e a disponibilidade de informações na PNADc -, selecionou-se as seguintes dimensões e variáveis:
-
-<p align="left">
-<a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro1.png" width="240" alt="Ciências Sociais - UFES">
-</a>
-</p>
-
-## Proporção de pessoas que sofrem privação, segundo indicadores selecionados - 2019
-
-O painel de indicadores, na dimensão do padrão de vida, aponta que, em 2019, 2,6% da população brasileira residia em domicílios sem água canalizada, ao passo que no Espírito Santo a proporção fora de 0,07%. Ao mesmo tempo, aproximadamente 2,6% dos brasileiros habitavam domicílios sem banheiro, taxa que alcança 0,2% dos capixabas. Esses indicadores representam condições precárias de higiene e saúde, além do esforço para coletar e transportar água para as residências.
-Sendo assim, de acordo com a projeção populacional do IBGE, em 2019, mais de cinco milhões de brasileiros vivenciavam privação nesses componentes, ao passo que menos de 9 mil capixabas encontravam-se nessa situação, indicando uma universalização maior destes indicadores na realidade capixaba.
+O primeiro passo da identificaÃ§Ã£o consiste em definir quais dimensÃµes sÃ£o mais relevantes e quais devem ser as variÃ¡veis utilizadas para representar cada uma.
+Neste estudo - levando em conta os dados utilizados na pesquisa de Serra (2017) e a disponibilidade de informaÃ§Ãµes na PNADc -, selecionou-se as seguintes dimensÃµes e variÃ¡veis:
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro2.png" width="240" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro1.png" width="380" alt="CiÃªncias Sociais - UFES">
 </a>
 </p>
 
-O destino do lixo ainda se configura como uma grave querela brasileira, com aproximadamente 15% do país (mais de 31 milhões de pessoas) e 11% (mais de 400 mil pessoas) do Espírito Santo privados de coleta direta ou indireta do lixo. O déficit habitacional também se estrutura como um grave problema nacional, com mais de 18% da população brasileira (mais de 37 milhões de pessoas), e aproximadamente 15% da população capixaba (por volta de 600 mil pessoas), privada de condições adequadas de moradia. As privações em bens de consumo duráveis mantêm patamar similar nos dois níveis geográficos analisados, com cerca de 3,5% do Brasil (7.332.376 pessoas) e 3,7% do Espírito Santo (148.552 pessoas) privados desses bens.
-O destaque positivo da dimensão do padrão de vida, para os dois níveis geográficos, fica no acesso à energia elétrica, com cerca de 0,2% da população brasileira e 0,02% da população capixaba privadas nesse componente, sinalizando o sucesso das políticas públicas de universalização do acesso à energia.
+## ProporÃ§Ã£o de pessoas que sofrem privaÃ§Ã£o, segundo indicadores selecionados - 2019
 
-A frequência escolar da população entre 7 e 17 anos, é o único indicador que caminha para a universalização, nesta dimensão, com cerca de 0,6% (aproximadamente um milhão e duzentas mil pessoas) da população brasileira e 0,65% (26 mil pessoas) da população capixaba vivenciando privação nesse componente. 
-Na análise de um indicador elementar, como o da alfabetização, constata-se níveis muito elevados, e persistentes, de analfabetismo no país, com 5,5% das pessoas com 9 anos ou mais (11.522.305 pessoas), no Brasil, e 4,8%, da mesma faixa etária (192.716 pessoas), do Espírito Santo, privados, em 2019, de saber ler ou escrever. A falta de prioridade, intencional ou não, que a dimensão educacional teve e tem na política brasileira também se traduz nos elevados níveis de privação vivenciados pela população maior de 18 anos, quando analisado o nível de instrução desse grupo etário: entrando na segunda década do século XXI, cerca de 26% da população brasileira (mais de 54 milhões de pessoas) e mais de 27% da capixaba (mais de um milhão de indivíduos) possuíam nenhuma instrução ou não completara o ensino fundamental.
-
-## Medidas de pobreza multidimensional, por método de cálculo - 2019
-
-Depois da análise do painel de indicadores, aplica-se o método de agregação e cálculo de Alkire-Foster (AF) aos dados para a comparação dos resultados obtidos nas métricas selecionadas.
+O painel de indicadores, na dimensÃ£o do padrÃ£o de vida, aponta que, em 2019, 2,6% da populaÃ§Ã£o brasileira residia em domicÃ­lios sem Ã¡gua canalizada, ao passo que no EspÃ­rito Santo a proporÃ§Ã£o fora de 0,07%. Ao mesmo tempo, aproximadamente 2,6% dos brasileiros habitavam domicÃ­lios sem banheiro, taxa que alcanÃ§a 0,2% dos capixabas. Esses indicadores representam condiÃ§Ãµes precÃ¡rias de higiene e saÃºde, alÃ©m do esforÃ§o para coletar e transportar Ã¡gua para as residÃªncias.
+Sendo assim, de acordo com a projeÃ§Ã£o populacional do IBGE, em 2019, mais de cinco milhÃµes de brasileiros vivenciavam privaÃ§Ã£o nesses componentes, ao passo que menos de 9 mil capixabas encontravam-se nessa situaÃ§Ã£o, indicando uma universalizaÃ§Ã£o maior destes indicadores na realidade capixaba.
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro3.png" width="240" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro2.png" width="380" alt="CiÃªncias Sociais - UFES">
 </a>
 </p>
 
-A incidência de pobreza, identificada pelo modelo, resultou em 7,4% (15.502.738 pessoas) da população brasileira e 5,6% (224.835 pessoas) da população capixaba multidimensionalmente pobre em 2019, quando considerada a linha de corte do IPM Global (OPHI, 2020) de 33%, mantendo o patamar de um digito nos dois níveis geográficos analisados. Já pela linha de privações em 50% dos componentes, a incidência da pobreza multidimensional cai para 2,75% da população brasileira (5.761.152 pessoas) e 1,6% da capixaba (64.238 pessoas), uma subestimação que indica o corte em 33% como o mais adequado para a análise da incidência. 
-Umá análise da distribuição das pessoas em todas as linhas de corte, cimenta uma escolha mais segura de uma linha particular para o Brasil e o Espírito Santo, com a menor subestimação possível.
+O destino do lixo ainda se configura como uma grave querela brasileira, com aproximadamente 15% do paÃ­s (mais de 31 milhÃµes de pessoas) e 11% (mais de 400 mil pessoas) do EspÃ­rito Santo privados de coleta direta ou indireta do lixo. O dÃ©ficit habitacional tambÃ©m se estrutura como um grave problema nacional, com mais de 18% da populaÃ§Ã£o brasileira (mais de 37 milhÃµes de pessoas), e aproximadamente 15% da populaÃ§Ã£o capixaba (por volta de 600 mil pessoas), privada de condiÃ§Ãµes adequadas de moradia. As privaÃ§Ãµes em bens de consumo durÃ¡veis mantÃªm patamar similar nos dois nÃ­veis geogrÃ¡ficos analisados, com cerca de 3,5% do Brasil (7.332.376 pessoas) e 3,7% do EspÃ­rito Santo (148.552 pessoas) privados desses bens.
+O destaque positivo da dimensÃ£o do padrÃ£o de vida, para os dois nÃ­veis geogrÃ¡ficos, fica no acesso Ã  energia elÃ©trica, com cerca de 0,2% da populaÃ§Ã£o brasileira e 0,02% da populaÃ§Ã£o capixaba privadas nesse componente, sinalizando o sucesso das polÃ­ticas pÃºblicas de universalizaÃ§Ã£o do acesso Ã  energia.
+
+A frequÃªncia escolar da populaÃ§Ã£o entre 7 e 17 anos, Ã© o Ãºnico indicador que caminha para a universalizaÃ§Ã£o, nesta dimensÃ£o, com cerca de 0,6% (aproximadamente um milhÃ£o e duzentas mil pessoas) da populaÃ§Ã£o brasileira e 0,65% (26 mil pessoas) da populaÃ§Ã£o capixaba vivenciando privaÃ§Ã£o nesse componente. 
+Na anÃ¡lise de um indicador elementar, como o da alfabetizaÃ§Ã£o, constata-se nÃ­veis muito elevados, e persistentes, de analfabetismo no paÃ­s, com 5,5% das pessoas com 9 anos ou mais (11.522.305 pessoas), no Brasil, e 4,8%, da mesma faixa etÃ¡ria (192.716 pessoas), do EspÃ­rito Santo, privados, em 2019, de saber ler ou escrever. A falta de prioridade, intencional ou nÃ£o, que a dimensÃ£o educacional teve e tem na polÃ­tica brasileira tambÃ©m se traduz nos elevados nÃ­veis de privaÃ§Ã£o vivenciados pela populaÃ§Ã£o maior de 18 anos, quando analisado o nÃ­vel de instruÃ§Ã£o desse grupo etÃ¡rio: entrando na segunda dÃ©cada do sÃ©culo XXI, cerca de 26% da populaÃ§Ã£o brasileira (mais de 54 milhÃµes de pessoas) e mais de 27% da capixaba (mais de um milhÃ£o de indivÃ­duos) possuÃ­am nenhuma instruÃ§Ã£o ou nÃ£o completara o ensino fundamental.
+
+## Medidas de pobreza multidimensional, por mÃ©todo de cÃ¡lculo - 2019
+
+Depois da anÃ¡lise do painel de indicadores, aplica-se o mÃ©todo de agregaÃ§Ã£o e cÃ¡lculo de Alkire-Foster (AF) aos dados para a comparaÃ§Ã£o dos resultados obtidos nas mÃ©tricas selecionadas.
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro4.png" width="240" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro3.png" width="380" alt="CiÃªncias Sociais - UFES">
 </a>
 </p>
 
-A média do grau de intensidade da pobreza multidimensional vivenciada por aqueles privados em 33% dos componentes atinge patamares semelhantes nos dois estratos geográficos, ficando em 53% no Brasil e 51% no Espírito Santo. Pelo prisma do corte em 50% de privações, a intensidade da pobreza se agrava, atingindo 62% no Brasil e 57% no Espírito Santo, demonstrando que a análise de intensidade se beneficia de recortes específicos para, por exemplo, averiguar a intensidade da pobreza entre os mais pobres dos identificados como em privações.
+A incidÃªncia de pobreza, identificada pelo modelo, resultou em 7,4% (15.502.738 pessoas) da populaÃ§Ã£o brasileira e 5,6% (224.835 pessoas) da populaÃ§Ã£o capixaba multidimensionalmente pobre em 2019, quando considerada a linha de corte do IPM Global (OPHI, 2020) de 33%, mantendo o patamar de um digito nos dois nÃ­veis geogrÃ¡ficos analisados. JÃ¡ pela linha de privaÃ§Ãµes em 50% dos componentes, a incidÃªncia da pobreza multidimensional cai para 2,75% da populaÃ§Ã£o brasileira (5.761.152 pessoas) e 1,6% da capixaba (64.238 pessoas), uma subestimaÃ§Ã£o que indica o corte em 33% como o mais adequado para a anÃ¡lise da incidÃªncia. 
+UmÃ¡ anÃ¡lise da distribuiÃ§Ã£o das pessoas em todas as linhas de corte, cimenta uma escolha mais segura de uma linha particular para o Brasil e o EspÃ­rito Santo, com a menor subestimaÃ§Ã£o possÃ­vel.
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro5.png" width="240" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro4.png" width="380" alt="CiÃªncias Sociais - UFES">
 </a>
 </p>
 
-Por fim, combinando a incidência (????) e a intensidade (????), o índice de pobreza multidimensional (????0 = ???? × ????) mostra que, na linha de corte de pobreza em 33% dos componentes, a pobreza multidimensional atinge 3,9% da população brasileira (mais de 8 milhões de pessoas) e 2,84% da capixaba (mais de 100 mil pessoas), ao passo em que a linha de 50% subestima a inferência para uma pontuação de 0,01715505 no IPM Brasil (mais de 3 milhões de pessoas) e 0,009247565 no IPM Espírito Santo (mais de 36 mil pessoas).
-
-## Contribuição relativa dos indicadores - 2019
+A mÃ©dia do grau de intensidade da pobreza multidimensional vivenciada por aqueles privados em 33% dos componentes atinge patamares semelhantes nos dois estratos geogrÃ¡ficos, ficando em 53% no Brasil e 51% no EspÃ­rito Santo. Pelo prisma do corte em 50% de privaÃ§Ãµes, a intensidade da pobreza se agrava, atingindo 62% no Brasil e 57% no EspÃ­rito Santo, demonstrando que a anÃ¡lise de intensidade se beneficia de recortes especÃ­ficos para, por exemplo, averiguar a intensidade da pobreza entre os mais pobres dos identificados como em privaÃ§Ãµes.
 
 <p align="left">
 <a href="http://lattes.cnpq.br/6536067478055019">
-<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro6.png" width="240" alt="Ciências Sociais - UFES">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro5.png" width="380" alt="CiÃªncias Sociais - UFES">
 </a>
 </p>
 
-Em relação à contribuição relativa de cada indicador para o índice, as tabelas mostram pouca variação entre os pontos de corte focados neste estudo, tanto para o Brasil quanto para o Espírito Santo. Na comparação entre os níveis geográficos, há uma preponderância maior das privações no nível de instrução entre os componentes do IPM capixaba (63% do índice) em relação ao IPM Brasil (52%), e uma diferença de 4 pontos percentuais entre a participação do destino do lixo no índice brasileiro e capixaba.
+Por fim, combinando a incidÃªncia (H) e a intensidade (A), o Ã­ndice de pobreza multidimensional (M0 = H Ã— A) mostra que, na linha de corte de pobreza em 33% dos componentes, a pobreza multidimensional atinge 3,9% da populaÃ§Ã£o brasileira (mais de 8 milhÃµes de pessoas) e 2,84% da capixaba (mais de 100 mil pessoas), ao passo em que a linha de 50% subestima a inferÃªncia para uma pontuaÃ§Ã£o de 0,01715505 no IPM Brasil (mais de 3 milhÃµes de pessoas) e 0,009247565 no IPM EspÃ­rito Santo (mais de 36 mil pessoas).
 
-## Considerações finais
+## ContribuiÃ§Ã£o relativa dos indicadores - 2019
 
-O enfrentamento da pobreza exige uma ampliação do espectro analítico para que se compreenda todas suas facetas, possibilitando que, para além do aumento da renda, o enfrentamento se desdobre em implementação de políticas públicas voltadas para o saneamento, a educação, acesso à informação, meio ambiente, habitação, e demais dimensões deste fenômeno multifacetado.
+<p align="left">
+<a href="http://lattes.cnpq.br/6536067478055019">
+<img src="https://github.com/iagocnunes/IPM_ES/blob/main/IPM%20images/tcc-quadro6.png" width="380" alt="CiÃªncias Sociais - UFES">
+</a>
+</p>
+
+Em relaÃ§Ã£o Ã  contribuiÃ§Ã£o relativa de cada indicador para o Ã­ndice, as tabelas mostram pouca variaÃ§Ã£o entre os pontos de corte focados neste estudo, tanto para o Brasil quanto para o EspÃ­rito Santo. Na comparaÃ§Ã£o entre os nÃ­veis geogrÃ¡ficos, hÃ¡ uma preponderÃ¢ncia maior das privaÃ§Ãµes no nÃ­vel de instruÃ§Ã£o entre os componentes do IPM capixaba (63% do Ã­ndice) em relaÃ§Ã£o ao IPM Brasil (52%), e uma diferenÃ§a de 4 pontos percentuais entre a participaÃ§Ã£o do destino do lixo no Ã­ndice brasileiro e capixaba.
+
+## ConsideraÃ§Ãµes finais
+
+O enfrentamento da pobreza exige uma ampliaÃ§Ã£o do espectro analÃ­tico para que se compreenda todas suas facetas, possibilitando que, para alÃ©m do aumento da renda, o enfrentamento se desdobre em implementaÃ§Ã£o de polÃ­ticas pÃºblicas voltadas para o saneamento, a educaÃ§Ã£o, acesso Ã  informaÃ§Ã£o, meio ambiente, habitaÃ§Ã£o, e demais dimensÃµes deste fenÃ´meno multifacetado.
+
+ALKIRE, S. et al. Multidimensional poverty measurement and analysis. Oxford: Oxford University Press, 2015.
+ALKIRE, S.; FOSTER, J. Counting and multidimensional poverty measurement. Journal of Public Economics, v. 95, p. 476-487, 2011.
+SERRA, A. S. Pobreza multidimensional no Brasil rural e urbano. 2017. Tese (Doutorado em Desenvolvimento EconÃ´mico) - Universidade Estadual de Campinas.
+
