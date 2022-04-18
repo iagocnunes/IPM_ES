@@ -6,7 +6,7 @@
 </a>
 </p>
 
-# Pobreza Multidimensional do Brasil e Espírito Santo: uma ilustração metodológica em pesquisa por amostra domiciliar
+# Pobreza Multidimensional no Brasil e Espírito Santo: uma ilustração metodológica em pesquisa por amostra domiciliar
 
 Este projeto é oriundo do meu trabalho de conclusão de curso (Ciências Sociais - Bacharel) apresentado ao Departamento de Ciências Sociais da Universidade Federal do Espírito Santo, orientado pelo Professor Doutor Marcelo Fetz de Almeida.
 
