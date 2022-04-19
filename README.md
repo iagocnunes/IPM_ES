@@ -19,7 +19,7 @@ Propõe-se aqui a aplicação do Índice de Pobreza Multidimensional (IPM) propo
 
 ## Métricas de mensuração da pobreza
 
-A mensuração da pobreza pela metodologia Alkire-Foster (ALKIRE, FOSTER, 2011a; ALKIRE et al., 2015) se realiza através da identificação dos em situação de pobreza na amostra e da agregação das informações em um índice
+A mensuração da pobreza pela metodologia Alkire-Foster (ALKIRE, FOSTER, 2011a; ALKIRE et al., 2015) se realiza através da identificação dos em situação de pobreza na amostra e da agregação das informações em um índice.
 Selecionou-se algumas métricas para o corpo analítico proposto, são elas:
 
 * a quantidade de indivíduos privados em cada indicador que compõe as dimensões do IPM;
