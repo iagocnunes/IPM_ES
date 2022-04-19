@@ -19,7 +19,7 @@ Propõe-se aqui a aplicação do Índice de Pobreza Multidimensional (IPM) propo
 
 ## Métricas de mensuração da pobreza
 
-A mensuração da pobreza pela metodologia Alkire-Foster (ALKIRE, FOSTER, 2011a; ALKIRE et al., 2015) se realiza através da identificação dos pobres na amostra e da agregação das informações em um índice.
+A mensuração da pobreza pela metodologia Alkire-Foster (ALKIRE, FOSTER, 2011a; ALKIRE et al., 2015) se realiza através da identificação dos em situação de pobres na amostra e da agregação das informações em um índice.za
 Selecionou-se algumas métricas para o corpo analítico proposto, são elas:
 
 * a quantidade de indivíduos privados em cada indicador que compõe as dimensões do IPM;
@@ -74,7 +74,7 @@ Depois da análise do painel de indicadores, aplica-se o método de agregação 
 </p>
 
 A incidência de pobreza, identificada pelo modelo, resultou em 7,4% (15.502.738 pessoas) da população brasileira e 5,6% (224.835 pessoas) da população capixaba multidimensionalmente pobre em 2019, quando considerada a linha de corte do IPM Global (OPHI, 2020) de 33%, mantendo o patamar de um digito nos dois níveis geográficos analisados. Já pela linha de privações em 50% dos componentes, a incidência da pobreza multidimensional cai para 2,75% da população brasileira (5.761.152 pessoas) e 1,6% da capixaba (64.238 pessoas), uma subestimação que indica o corte em 33% como o mais adequado para a análise da incidência. 
-Umá análise da distribuição das pessoas em todas as linhas de corte, cimenta uma escolha mais segura de uma linha particular para o Brasil e o Espírito Santo, com a menor subestimação possível.
+Uma análise da distribuição das pessoas em todas as linhas de corte, cimenta uma escolha mais segura de uma linha particular para o Brasil e o Espírito Santo, com a menor subestimação possível.
 
 <p align="left">
 <a href="_blank">
