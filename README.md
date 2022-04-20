@@ -49,7 +49,7 @@ Neste estudo - levando em conta os dados utilizados na pesquisa de Serra (2017) 
 ## Proporção de pessoas que sofrem privação, segundo indicadores selecionados - 2019
 
 O painel de indicadores, na dimensão do padrão de vida, aponta que, em 2019, 2,6% da população brasileira residia em domicílios sem água canalizada, ao passo que no Espírito Santo a proporção fora de 0,07%. Ao mesmo tempo, aproximadamente 2,6% dos brasileiros habitavam domicílios sem banheiro, taxa que alcança 0,2% dos capixabas. Esses indicadores representam condições precárias de higiene e saúde, além do esforço para coletar e transportar água para as residências.
-Sendo assim, de acordo com a projeção populacional do IBGE, em 2019, mais de cinco milhões de brasileiros vivenciavam privação nesses componentes, ao passo que menos de 9 mil capixabas encontravam-se nessa situação, indicando uma universalização maior destes indicadores na realidade capixaba.
+Sendo assim, de acordo com a projeção populacional do IBGE, em 2019, mais de cinco milhões de brasileiros vivenciavam privação nesses componentes, ao passo que menos de 9 mil capixabas encontravam-se nessa situação, indicando uma universalização maior do bem-estar nestes indicadores na realidade capixaba.
 
 <p align="left">
 <a href="_blank">
@@ -109,5 +109,6 @@ O enfrentamento da pobreza exige uma ampliação do espectro analítico para que
 Bibliografia citada aqui:
 - ALKIRE, S. et al. Multidimensional poverty measurement and analysis. Oxford: Oxford University Press, 2015.
 - ALKIRE, S.; FOSTER, J. Counting and multidimensional poverty measurement. Journal of Public Economics, v. 95, p. 476-487, 2011.
+- OXFORD POVERTY AND HUMAN DEVELOPMENT INITIATIVE (OPHI). 2020 Global Multidimensional Poverty Index - Brazil PNAD 2015 [STATA do-file]. University of Oxford: 2020.
 - SERRA, A. S. Pobreza multidimensional no Brasil rural e urbano. 2017. Tese (Doutorado em Desenvolvimento Econômico) - Universidade Estadual de Campinas.
 
